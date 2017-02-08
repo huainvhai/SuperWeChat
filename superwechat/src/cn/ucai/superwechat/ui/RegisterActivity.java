@@ -16,9 +16,11 @@ package cn.ucai.superwechat.ui;
 import android.app.ProgressDialog;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.hyphenate.EMError;
@@ -28,14 +30,21 @@ import com.hyphenate.exceptions.HyphenateException;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
+import cn.ucai.superwechat.I;
 import cn.ucai.superwechat.R;
 import cn.ucai.superwechat.SuperWeChatHelper;
+import cn.ucai.superwechat.domain.Result;
+import cn.ucai.superwechat.net.NetDao;
+import cn.ucai.superwechat.net.OnCompleteListener;
+import cn.ucai.superwechat.utils.CommonUtils;
 import cn.ucai.superwechat.utils.MFGT;
+import cn.ucai.superwechat.utils.ResultUtils;
 
 /**
  * register screen
  */
 public class RegisterActivity extends BaseActivity {
+    private static final String TAG = RegisterActivity.class.getSimpleName();
     @BindView(R.id.et_username)
     EditText etUsername;
     @BindView(R.id.et_nickname)
@@ -47,6 +56,12 @@ public class RegisterActivity extends BaseActivity {
     @BindView(R.id.img_back)
     ImageView imgBack;
 
+    String username;
+    String nick;
+    String pwd;
+    ProgressDialog pd;
+    @BindView(R.id.txt_title)
+    TextView txtTitle;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,11 +69,14 @@ public class RegisterActivity extends BaseActivity {
         setContentView(R.layout.em_activity_register);
         ButterKnife.bind(this);
         imgBack.setVisibility(View.VISIBLE);
+        txtTitle.setVisibility(View.VISIBLE);
+        txtTitle.setText(R.string.register);
     }
 
     public void register() {
-        final String username = etUsername.getText().toString().trim();
-        final String pwd = etPassword.getText().toString().trim();
+        username = etUsername.getText().toString().trim();
+        nick = etNickname.getText().toString().trim();
+        pwd = etPassword.getText().toString().trim();
         String confirm_pwd = etConfirmPassword.getText().toString().trim();
         if (TextUtils.isEmpty(username)) {
             Toast.makeText(this, getResources().getString(R.string.User_name_cannot_be_empty), Toast.LENGTH_SHORT).show();
@@ -78,49 +96,105 @@ public class RegisterActivity extends BaseActivity {
         }
 
         if (!TextUtils.isEmpty(username) && !TextUtils.isEmpty(pwd)) {
-            final ProgressDialog pd = new ProgressDialog(this);
+            pd = new ProgressDialog(this);
             pd.setMessage(getResources().getString(R.string.Is_the_registered));
             pd.show();
 
-            new Thread(new Runnable() {
-                public void run() {
-                    try {
-                        // call method in SDK
-                        EMClient.getInstance().createAccount(username, pwd);
-                        runOnUiThread(new Runnable() {
-                            public void run() {
-                                if (!RegisterActivity.this.isFinishing())
-                                    pd.dismiss();
-                                // save current user
-                                SuperWeChatHelper.getInstance().setCurrentUserName(username);
-                                Toast.makeText(getApplicationContext(), getResources().getString(R.string.Registered_successfully), Toast.LENGTH_SHORT).show();
-                                finish();
-                            }
-                        });
-                    } catch (final HyphenateException e) {
-                        runOnUiThread(new Runnable() {
-                            public void run() {
-                                if (!RegisterActivity.this.isFinishing())
-                                    pd.dismiss();
-                                int errorCode = e.getErrorCode();
-                                if (errorCode == EMError.NETWORK_ERROR) {
-                                    Toast.makeText(getApplicationContext(), getResources().getString(R.string.network_anomalies), Toast.LENGTH_SHORT).show();
-                                } else if (errorCode == EMError.USER_ALREADY_EXIST) {
-                                    Toast.makeText(getApplicationContext(), getResources().getString(R.string.User_already_exists), Toast.LENGTH_SHORT).show();
-                                } else if (errorCode == EMError.USER_AUTHENTICATION_FAILED) {
-                                    Toast.makeText(getApplicationContext(), getResources().getString(R.string.registration_failed_without_permission), Toast.LENGTH_SHORT).show();
-                                } else if (errorCode == EMError.USER_ILLEGAL_ARGUMENT) {
-                                    Toast.makeText(getApplicationContext(), getResources().getString(R.string.illegal_user_name), Toast.LENGTH_SHORT).show();
-                                } else {
-                                    Toast.makeText(getApplicationContext(), getResources().getString(R.string.Registration_failed), Toast.LENGTH_SHORT).show();
-                                }
-                            }
-                        });
-                    }
-                }
-            }).start();
+            registerAppServer();
 
         }
+    }
+
+    private void registerAppServer() {
+        //注册自己的环信账号
+        NetDao.register(this, username, nick, pwd, new OnCompleteListener<String>() {
+            @Override
+            public void onSuccess(String s) {
+                if (s != null) {
+                    Result result = ResultUtils.getResultFromJson(s, null);
+                    if (result != null) {
+                        if (result.isRetMsg()) {
+                            //注册成功后调用环信的注册
+                            registerEMServer();
+                        }
+                    } else {
+                        pd.dismiss();
+                        if (result.getRetCode() == I.MSG_REGISTER_USERNAME_EXISTS) {
+                            CommonUtils.showShortToast(R.string.User_already_exists);
+                        } else {
+                            CommonUtils.showShortToast(R.string.Registration_failed);
+                        }
+                    }
+                } else {
+                    pd.dismiss();
+                    CommonUtils.showShortToast(R.string.Registration_failed);
+                }
+            }
+
+            @Override
+            public void onError(String error) {
+                pd.dismiss();
+                Log.e(TAG, "error=" + error);
+                CommonUtils.showShortToast(R.string.Registration_failed);
+            }
+        });
+
+    }
+
+    private void registerEMServer() {
+        new Thread(new Runnable() {
+            public void run() {
+                try {
+                    // call method in SDK
+                    EMClient.getInstance().createAccount(username, pwd);
+                    runOnUiThread(new Runnable() {
+                        public void run() {
+                            if (!RegisterActivity.this.isFinishing())
+                                pd.dismiss();
+                            // save current user
+                            SuperWeChatHelper.getInstance().setCurrentUserName(username);
+                            Toast.makeText(getApplicationContext(), getResources().getString(R.string.Registered_successfully), Toast.LENGTH_SHORT).show();
+                            finish();
+                        }
+                    });
+                } catch (final HyphenateException e) {
+                    //如果本地注册成功，环信服务器注册失败，则取消本地的注册
+                    unRegisterAppServer();
+                    runOnUiThread(new Runnable() {
+                        public void run() {
+                            if (!RegisterActivity.this.isFinishing())
+                                pd.dismiss();
+                            int errorCode = e.getErrorCode();
+                            if (errorCode == EMError.NETWORK_ERROR) {
+                                Toast.makeText(getApplicationContext(), getResources().getString(R.string.network_anomalies), Toast.LENGTH_SHORT).show();
+                            } else if (errorCode == EMError.USER_ALREADY_EXIST) {
+                                Toast.makeText(getApplicationContext(), getResources().getString(R.string.User_already_exists), Toast.LENGTH_SHORT).show();
+                            } else if (errorCode == EMError.USER_AUTHENTICATION_FAILED) {
+                                Toast.makeText(getApplicationContext(), getResources().getString(R.string.registration_failed_without_permission), Toast.LENGTH_SHORT).show();
+                            } else if (errorCode == EMError.USER_ILLEGAL_ARGUMENT) {
+                                Toast.makeText(getApplicationContext(), getResources().getString(R.string.illegal_user_name), Toast.LENGTH_SHORT).show();
+                            } else {
+                                Toast.makeText(getApplicationContext(), getResources().getString(R.string.Registration_failed), Toast.LENGTH_SHORT).show();
+                            }
+                        }
+                    });
+                }
+            }
+        }).start();
+    }
+
+    private void unRegisterAppServer() {
+        NetDao.unRegister(this, username, new OnCompleteListener<String>() {
+            @Override
+            public void onSuccess(String result) {
+                Log.e(TAG, "result=" + result);
+            }
+
+            @Override
+            public void onError(String error) {
+                Log.e(TAG, "error=" + error);
+            }
+        });
     }
 
     @OnClick({R.id.img_back, R.id.btn_register})

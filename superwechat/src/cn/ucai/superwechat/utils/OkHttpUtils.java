@@ -21,6 +21,7 @@ import java.util.concurrent.TimeUnit;
 
 import cn.ucai.superwechat.I;
 import cn.ucai.superwechat.SuperWeChatApplication;
+import cn.ucai.superwechat.domain.Result;
 import okhttp3.Cache;
 import okhttp3.Call;
 import okhttp3.Callback;
@@ -419,14 +420,14 @@ public class OkHttpUtils<T> {
      * @param <T>
      * @return
      */
-//    public <T> T parseJson(Result result, Class<?> clazz) {
-//        if (result.getRetCode() == 0) {
-//            String json = result.getRetData().toString();
-//            T t = parseJson(json, clazz);
-//            return t;
-//        }
-//        return null;
-//    }
+    public <T> T parseJson(Result result, Class<?> clazz) {
+        if (result.getRetCode() == 0) {
+            String json = result.getRetData().toString();
+            T t = parseJson(json, clazz);
+            return t;
+        }
+        return null;
+    }
 
     /**
      * 下载文件，支持更新下载进度
