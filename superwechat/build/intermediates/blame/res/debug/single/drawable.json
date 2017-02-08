@@ -16,12 +16,12 @@
         "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\drawable\\ease_edit_text_bg.xml"
     },
     {
-        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable\\em_red_packet_chatfrom_bg.xml",
-        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\redpacketlibrary\\unspecified\\res\\drawable\\em_red_packet_chatfrom_bg.xml"
-    },
-    {
         "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
         "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable\\em_red_packet_chatfrom_bg.xml",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\redpacketlibrary\\unspecified\\res\\drawable\\em_red_packet_chatfrom_bg.xml"
     },
     {
         "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_timestampe_bg.xml",

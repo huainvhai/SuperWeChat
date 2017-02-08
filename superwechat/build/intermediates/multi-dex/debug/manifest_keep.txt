@@ -1,4 +1,4 @@
--keep class cn.ucai.superwechat.DemoApplication {
+-keep class cn.ucai.superwechat.SuperWeChatApplication {
     <init>();
     void attachBaseContext(android.content.Context);
 }
@@ -67,3 +67,4 @@
 -keep class com.hyphenate.chat.EMJobService { <init>(); }
 -keep class com.hyphenate.chat.EMMonitorReceiver { <init>(); }
 -keep class com.baidu.location.f { <init>(); }
+-keep class cn.ucai.superwechat.ui.GuideActivity { <init>(); }

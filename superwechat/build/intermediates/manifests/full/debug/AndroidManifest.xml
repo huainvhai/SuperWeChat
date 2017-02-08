@@ -43,12 +43,14 @@
         android:protectionLevel="signatureOrSystem" />
 
     <uses-permission android:name="cn.ucai.superwechat.permission.MIPUSH_RECEIVE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
-        android:name="cn.ucai.superwechat.DemoApplication"
+        android:name="cn.ucai.superwechat.SuperWeChatApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name" >
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
         <activity
             android:name="cn.ucai.superwechat.ui.MainActivity"
             android:launchMode="singleTask"
@@ -488,6 +490,8 @@
         <meta-data
             android:name="com.baidu.lbsapi.API_KEY"
             android:value="3ecea51f560650b1ed8a4b99808f52e8" />
+
+        <activity android:name="cn.ucai.superwechat.ui.GuideActivity" />
     </application>
 
 </manifest>
