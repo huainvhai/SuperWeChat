@@ -36,12 +36,12 @@
         "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\layout\\em_activity_group_simle_details.xml"
     },
     {
-        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\em_context_menu_for_text.xml",
-        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\layout\\em_context_menu_for_text.xml"
-    },
-    {
         "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\em_contacts_header.xml",
         "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\layout\\em_contacts_header.xml"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\em_context_menu_for_text.xml",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\layout\\em_context_menu_for_text.xml"
     },
     {
         "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\rp_bank_city_list_item.xml",

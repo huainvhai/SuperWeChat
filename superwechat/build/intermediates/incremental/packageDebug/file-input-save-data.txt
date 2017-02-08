@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Feb 08 11:23:53 GMT+08:00 2017
+#Wed Feb 08 11:40:00 GMT+08:00 2017
 100.set=ANDROID_RESOURCE
 57.file=D\:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\ease_activity_show_big_image.xml
 145.file=D\:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\rp_fragment_single_chat_packet.xml
