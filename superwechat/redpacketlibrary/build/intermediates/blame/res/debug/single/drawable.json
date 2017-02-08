@@ -88,12 +88,12 @@
         "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\redpacketlibrary\\res\\drawable\\em_chat_transfer_selector.xml"
     },
     {
-        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\redpacketlibrary\\build\\intermediates\\res\\merged\\debug\\drawable\\rp_btn_grey_normal_shape.xml",
-        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\redpacketlibrary\\res\\drawable\\rp_btn_grey_normal_shape.xml"
-    },
-    {
         "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\redpacketlibrary\\build\\intermediates\\res\\merged\\debug\\drawable\\em_red_packet_chatto_bg.xml",
         "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\redpacketlibrary\\res\\drawable\\em_red_packet_chatto_bg.xml"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\redpacketlibrary\\build\\intermediates\\res\\merged\\debug\\drawable\\rp_btn_grey_normal_shape.xml",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\redpacketlibrary\\res\\drawable\\rp_btn_grey_normal_shape.xml"
     },
     {
         "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\redpacketlibrary\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_chat_takepic_selector.xml",

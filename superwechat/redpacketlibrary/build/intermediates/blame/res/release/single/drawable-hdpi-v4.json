@@ -80,12 +80,12 @@
         "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\redpacketlibrary\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\drawable-hdpi-v4\\ease_mm_listitem_disable.9.png"
     },
     {
-        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\redpacketlibrary\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\ease_type_select_btn_nor.png",
-        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\redpacketlibrary\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\drawable-hdpi-v4\\ease_type_select_btn_nor.png"
-    },
-    {
         "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\redpacketlibrary\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\ease_mm_listitem_pressed.9.png",
         "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\redpacketlibrary\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\drawable-hdpi-v4\\ease_mm_listitem_pressed.9.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\redpacketlibrary\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\ease_type_select_btn_nor.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\redpacketlibrary\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\drawable-hdpi-v4\\ease_type_select_btn_nor.png"
     },
     {
         "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\redpacketlibrary\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\ee_14.png",

@@ -128,12 +128,12 @@
         "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chatting_biaoqing_btn_normal.png"
     },
     {
-        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_31.png",
-        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_31.png"
-    },
-    {
         "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_ic_launcher.png",
         "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_ic_launcher.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_31.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_31.png"
     },
     {
         "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_type_select_btn_pressed.png",
@@ -452,11 +452,11 @@
         "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_29.png"
     },
     {
-        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_type_select_btn_nor.png",
-        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_type_select_btn_nor.png"
-    },
-    {
         "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_chat_face_normal.png",
         "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chat_face_normal.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_type_select_btn_nor.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_type_select_btn_nor.png"
     }
 ]

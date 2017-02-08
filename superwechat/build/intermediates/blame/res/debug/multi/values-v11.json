@@ -28,9 +28,356 @@
                     "startLine": 5,
                     "startColumn": 4,
                     "startOffset": 224,
-                    "endLine": 7,
+                    "endLine": 10,
                     "endColumn": 12,
-                    "endOffset": 394
+                    "endOffset": 638
+                },
+                "from": {
+                    "file": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 290,
+                        "endLine": 9,
+                        "endColumn": 12,
+                        "endOffset": 704
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 643,
+                    "endLine": 16,
+                    "endColumn": 12,
+                    "endOffset": 1063
+                },
+                "from": {
+                    "file": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 709,
+                        "endLine": 15,
+                        "endColumn": 12,
+                        "endOffset": 1129
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1068,
+                    "endLine": 22,
+                    "endColumn": 12,
+                    "endOffset": 1491
+                },
+                "from": {
+                    "file": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1134,
+                        "endLine": 21,
+                        "endColumn": 12,
+                        "endOffset": 1557
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1496,
+                    "endLine": 28,
+                    "endColumn": 12,
+                    "endOffset": 1917
+                },
+                "from": {
+                    "file": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1562,
+                        "endLine": 27,
+                        "endColumn": 12,
+                        "endOffset": 1983
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 1922,
+                    "endLine": 34,
+                    "endColumn": 12,
+                    "endOffset": 2344
+                },
+                "from": {
+                    "file": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 1988,
+                        "endLine": 33,
+                        "endColumn": 12,
+                        "endOffset": 2410
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 2349,
+                    "endLine": 40,
+                    "endColumn": 12,
+                    "endOffset": 2769
+                },
+                "from": {
+                    "file": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 4,
+                        "startOffset": 2415,
+                        "endLine": 39,
+                        "endColumn": 12,
+                        "endOffset": 2835
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 2774,
+                    "endColumn": 88,
+                    "endOffset": 2858
+                },
+                "from": {
+                    "file": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 42,
+                        "startColumn": 4,
+                        "startOffset": 3070,
+                        "endColumn": 88,
+                        "endOffset": 3154
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 2863,
+                    "endColumn": 100,
+                    "endOffset": 2959
+                },
+                "from": {
+                    "file": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 43,
+                        "startColumn": 4,
+                        "startOffset": 3159,
+                        "endColumn": 100,
+                        "endOffset": 3255
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 2964,
+                    "endLine": 47,
+                    "endColumn": 12,
+                    "endOffset": 3367
+                },
+                "from": {
+                    "file": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 44,
+                        "startColumn": 4,
+                        "startOffset": 3260,
+                        "endLine": 48,
+                        "endColumn": 12,
+                        "endOffset": 3663
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 3372,
+                    "endLine": 52,
+                    "endColumn": 12,
+                    "endOffset": 3787
+                },
+                "from": {
+                    "file": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 49,
+                        "startColumn": 4,
+                        "startOffset": 3668,
+                        "endLine": 53,
+                        "endColumn": 12,
+                        "endOffset": 4083
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 53,
+                    "startColumn": 4,
+                    "startOffset": 3792,
+                    "endLine": 54,
+                    "endColumn": 12,
+                    "endOffset": 3894
+                },
+                "from": {
+                    "file": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 56,
+                        "startColumn": 4,
+                        "startOffset": 4318,
+                        "endLine": 57,
+                        "endColumn": 12,
+                        "endOffset": 4420
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 55,
+                    "startColumn": 4,
+                    "startOffset": 3899,
+                    "endLine": 56,
+                    "endColumn": 12,
+                    "endOffset": 4023
+                },
+                "from": {
+                    "file": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 58,
+                        "startColumn": 4,
+                        "startOffset": 4425,
+                        "endLine": 59,
+                        "endColumn": 12,
+                        "endOffset": 4549
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 57,
+                    "startColumn": 4,
+                    "startOffset": 4028,
+                    "endColumn": 70,
+                    "endOffset": 4094
+                },
+                "from": {
+                    "file": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 62,
+                        "startColumn": 4,
+                        "startOffset": 4784,
+                        "endColumn": 70,
+                        "endOffset": 4850
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 58,
+                    "startColumn": 4,
+                    "startOffset": 4099,
+                    "endColumn": 82,
+                    "endOffset": 4177
+                },
+                "from": {
+                    "file": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 63,
+                        "startColumn": 4,
+                        "startOffset": 4855,
+                        "endColumn": 82,
+                        "endOffset": 4933
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 59,
+                    "startColumn": 4,
+                    "startOffset": 4182,
+                    "endLine": 109,
+                    "endColumn": 12,
+                    "endOffset": 7885
+                },
+                "from": {
+                    "file": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 64,
+                        "startColumn": 4,
+                        "startOffset": 4938,
+                        "endLine": 114,
+                        "endColumn": 12,
+                        "endOffset": 8641
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 110,
+                    "startColumn": 4,
+                    "startOffset": 7890,
+                    "endLine": 161,
+                    "endColumn": 12,
+                    "endOffset": 11733
+                },
+                "from": {
+                    "file": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 115,
+                        "startColumn": 4,
+                        "startOffset": 8646,
+                        "endLine": 166,
+                        "endColumn": 12,
+                        "endOffset": 12489
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 162,
+                    "startColumn": 4,
+                    "startOffset": 11738,
+                    "endColumn": 90,
+                    "endOffset": 11824
+                },
+                "from": {
+                    "file": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 169,
+                        "startColumn": 4,
+                        "startOffset": 12724,
+                        "endColumn": 90,
+                        "endOffset": 12810
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 163,
+                    "startColumn": 4,
+                    "startOffset": 11829,
+                    "endLine": 165,
+                    "endColumn": 12,
+                    "endOffset": 11999
                 },
                 "from": {
                     "file": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\values-v11\\values-v11.xml",
@@ -46,11 +393,11 @@
             },
             {
                 "to": {
-                    "startLine": 8,
+                    "startLine": 166,
                     "startColumn": 4,
-                    "startOffset": 399,
+                    "startOffset": 12004,
                     "endColumn": 84,
-                    "endOffset": 479
+                    "endOffset": 12084
                 },
                 "from": {
                     "file": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\values-v11\\values-v11.xml",

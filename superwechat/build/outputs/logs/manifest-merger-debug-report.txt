@@ -22,6 +22,8 @@ ADDED from D:\developer\ASworkspace\SuperWeChatV2\superwechat\AndroidManifest.xm
 MERGED from [com.android.support:multidex:1.0.1] D:\developer\ASworkspace\SuperWeChatV2\superwechat\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\AndroidManifest.xml:18:5-42
 MERGED from [superwechat:redpacketlibrary:unspecified] D:\developer\ASworkspace\SuperWeChatV2\superwechat\build\intermediates\exploded-aar\superwechat\redpacketlibrary\unspecified\AndroidManifest.xml:7:5-9:41
 MERGED from [superwechat:EaseUI:unspecified] D:\developer\ASworkspace\SuperWeChatV2\superwechat\build\intermediates\exploded-aar\superwechat\EaseUI\unspecified\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:23.0.1] D:\developer\ASworkspace\SuperWeChatV2\superwechat\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.0.1] D:\developer\ASworkspace\SuperWeChatV2\superwechat\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\AndroidManifest.xml:20:5-43
 	tools:overrideLibrary
 		ADDED from D:\developer\ASworkspace\SuperWeChatV2\superwechat\AndroidManifest.xml:11:9-56
 	android:targetSdkVersion
@@ -138,12 +140,14 @@ ADDED from D:\developer\ASworkspace\SuperWeChatV2\superwechat\AndroidManifest.xm
 		ADDED from D:\developer\ASworkspace\SuperWeChatV2\superwechat\AndroidManifest.xml:47:22-82
 application
 ADDED from D:\developer\ASworkspace\SuperWeChatV2\superwechat\AndroidManifest.xml:49:5-500:19
+MERGED from [com.android.support:support-v4:23.0.1] D:\developer\ASworkspace\SuperWeChatV2\superwechat\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.0.1] D:\developer\ASworkspace\SuperWeChatV2\superwechat\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\AndroidManifest.xml:22:5-20
 	android:label
 		ADDED from D:\developer\ASworkspace\SuperWeChatV2\superwechat\AndroidManifest.xml:53:9-41
 	android:allowBackup
 		ADDED from D:\developer\ASworkspace\SuperWeChatV2\superwechat\AndroidManifest.xml:51:9-35
 	android:icon
-		ADDED from D:\developer\ASworkspace\SuperWeChatV2\superwechat\AndroidManifest.xml:52:9-48
+		ADDED from D:\developer\ASworkspace\SuperWeChatV2\superwechat\AndroidManifest.xml:52:9-43
 	android:name
 		ADDED from D:\developer\ASworkspace\SuperWeChatV2\superwechat\AndroidManifest.xml:50:9-40
 activity#cn.ucai.superwechat.ui.MainActivity

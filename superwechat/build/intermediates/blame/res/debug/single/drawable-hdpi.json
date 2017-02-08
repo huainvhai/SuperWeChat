@@ -1,27 +1,35 @@
 [
     {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\find_normal.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\find_normal.png"
+    },
+    {
         "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_welcom_logo.png",
         "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\em_welcom_logo.png"
     },
     {
-        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_logo_uidemo.png",
-        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\em_logo_uidemo.png"
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_titleaddfriend.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\icon_titleaddfriend.png"
     },
     {
-        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_035_cover.png",
-        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\icon_035_cover.png"
-    },
-    {
-        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_mm_title_act_btn_normal.9.png",
-        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\em_mm_title_act_btn_normal.9.png"
-    },
-    {
-        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_002_cover.png",
-        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\icon_002_cover.png"
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_more.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\icon_more.png"
     },
     {
         "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_search_bar_icon_normal.png",
         "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\em_search_bar_icon_normal.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\default_avatar.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\default_avatar.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\contact_list_pressed.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\contact_list_pressed.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_me_money.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\icon_me_money.png"
     },
     {
         "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\umeng_update_btn_check_on_holo_light.png",
@@ -40,60 +48,68 @@
         "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\em_video_recorder_stop_btn.png"
     },
     {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\contact_list_normal.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\contact_list_normal.png"
+    },
+    {
         "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_btn_style_alert_dialog_background.9.png",
         "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\em_btn_style_alert_dialog_background.9.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-hdpi\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\search_ba.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\search_ba.png"
     },
     {
         "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_ic_right_arrow.png",
         "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\em_ic_right_arrow.png"
     },
     {
-        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_012_cover.png",
-        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\icon_012_cover.png"
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_de_shop.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\icon_de_shop.png"
     },
     {
         "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_groups_icon.png",
         "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\em_groups_icon.png"
     },
     {
-        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_smiley_add_btn_pressed.png",
-        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\em_smiley_add_btn_pressed.png"
-    },
-    {
-        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_022_cover.png",
-        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\icon_022_cover.png"
-    },
-    {
         "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\umeng_update_btn_check_off_focused_holo_light.png",
         "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\umeng_update_btn_check_off_focused_holo_light.png"
     },
     {
-        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_video_recorder_start_btn.png",
-        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\em_video_recorder_start_btn.png"
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-hdpi\\abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_settings_normal.png",
-        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\em_settings_normal.png"
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\head.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\head.png"
     },
     {
         "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_actionbar_camera_icon.png",
         "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\em_actionbar_camera_icon.png"
     },
     {
-        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\umeng_update_btn_check_off_pressed_holo_light.png",
-        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\umeng_update_btn_check_off_pressed_holo_light.png"
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_010_cover.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\icon_010_cover.png"
     },
     {
         "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_007_cover.png",
         "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\icon_007_cover.png"
     },
     {
-        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_010_cover.png",
-        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\icon_010_cover.png"
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\search_icon.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\search_icon.png"
     },
     {
         "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_smiley_minus_btn_nor.png",
         "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\em_smiley_minus_btn_nor.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_qunliao.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\icon_qunliao.png"
     },
     {
         "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_conversation_normal.png",
@@ -108,24 +124,56 @@
         "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\em_camera_switch_normal.9.png"
     },
     {
-        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_icon_account.png",
-        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\em_icon_account.png"
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_list_pressed_holo_dark.9.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-hdpi\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_btn_register.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\icon_btn_register.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_list_selector_disabled_holo_light.9.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-hdpi\\abc_list_selector_disabled_holo_light.9.png"
     },
     {
         "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_roominfo_add_btn_pressed.png",
         "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\em_roominfo_add_btn_pressed.png"
     },
     {
-        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_show_head_toast_bg.9.png",
-        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\em_show_head_toast_bg.9.png"
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_groupinfo.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\icon_groupinfo.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\v2.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\v2.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-hdpi\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-hdpi\\abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
         "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\umeng_update_close_bg_tap.png",
         "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\umeng_update_close_bg_tap.png"
     },
     {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\default_hd_avatar.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\default_hd_avatar.png"
+    },
+    {
         "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_040_cover.png",
         "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\icon_040_cover.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-hdpi\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_btn_creat.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\icon_btn_creat.png"
     },
     {
         "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_030_cover.png",
@@ -136,112 +184,112 @@
         "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\icon_020_cover.png"
     },
     {
-        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_msg_state_fail_resend.png",
-        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\em_msg_state_fail_resend.png"
-    },
-    {
-        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_018_cover.png",
-        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\icon_018_cover.png"
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-hdpi\\abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
         "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_add.png",
         "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\em_add.png"
     },
     {
-        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_conversation_selected.png",
-        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\em_conversation_selected.png"
-    },
-    {
-        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_dx_checkbox_on.png",
-        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\em_dx_checkbox_on.png"
-    },
-    {
         "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_021_cover.png",
         "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\icon_021_cover.png"
     },
     {
-        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\umeng_update_close_bg_normal.png",
-        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\umeng_update_close_bg_normal.png"
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\afr.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\afr.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-hdpi\\abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
         "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_profile_headphoto_update_icon.png",
         "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\em_profile_headphoto_update_icon.png"
     },
     {
-        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_settings_selected.png",
-        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\em_settings_selected.png"
-    },
-    {
         "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_create_group.png",
         "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\em_create_group.png"
     },
     {
-        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_019_cover.png",
-        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\icon_019_cover.png"
-    },
-    {
-        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_dx_checkbox_off.png",
-        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\em_dx_checkbox_off.png"
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_de_saoyisao.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\icon_de_saoyisao.png"
     },
     {
         "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_roominfo_add_btn_normal.png",
         "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\em_roominfo_add_btn_normal.png"
     },
     {
-        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_mm_title_act_btn_pressed.9.png",
-        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\em_mm_title_act_btn_pressed.9.png"
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_list_focused_holo.9.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-hdpi\\abc_list_focused_holo.9.png"
     },
     {
-        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_029_cover.png",
-        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\icon_029_cover.png"
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_mm_title_act_btn_pressed.9.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\em_mm_title_act_btn_pressed.9.png"
     },
     {
         "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_smiley_minus_btn_pressed.png",
         "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\em_smiley_minus_btn_pressed.png"
     },
     {
-        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\umeng_update_btn_check_on_pressed_holo_light.png",
-        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\umeng_update_btn_check_on_pressed_holo_light.png"
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_btn_login.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\icon_btn_login.png"
     },
     {
-        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_smiley_add_btn_nor.png",
-        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\em_smiley_add_btn_nor.png"
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\wp.9.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\wp.9.png"
     },
     {
-        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_to_group_details_normal.png",
-        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\em_to_group_details_normal.png"
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_list_pressed_holo_light.9.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-hdpi\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\auj.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\auj.png"
     },
     {
         "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_dx_checkbox_gray_on.png",
         "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\em_dx_checkbox_gray_on.png"
     },
     {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-hdpi\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
         "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_new_friends_icon.png",
         "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\em_new_friends_icon.png"
     },
     {
-        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_default_avatar.png",
-        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\em_default_avatar.png"
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_btn_delete.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\icon_btn_delete.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_me_smail.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\icon_me_smail.png"
     },
     {
         "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_login_error_icon.png",
         "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\em_login_error_icon.png"
     },
     {
-        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_icon_pwd.png",
-        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\em_icon_pwd.png"
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\server_error.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\server_error.png"
     },
     {
-        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_contact_list_selected.png",
-        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\em_contact_list_selected.png"
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-hdpi\\abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_unread_count_bg.9.png",
-        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\em_unread_count_bg.9.png"
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\weixin_pressed.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\weixin_pressed.png"
     },
     {
-        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_add_public_group.png",
-        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\em_add_public_group.png"
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_me_collect.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\icon_me_collect.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_menu_sao.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\icon_menu_sao.png"
     },
     {
         "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_013_cover.png",
@@ -250,6 +298,10 @@
     {
         "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_seabar_input.9.png",
         "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\em_seabar_input.9.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_menu_money.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\icon_menu_money.png"
     },
     {
         "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_mm_title_back.png",
@@ -268,7 +320,363 @@
         "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\umeng_update_btn_check_off_holo_light.png"
     },
     {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_menu_addfriend.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\icon_menu_addfriend.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_de_yao.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\icon_de_yao.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\popmenu_bg.9.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\popmenu_bg.9.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_logo_uidemo.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\em_logo_uidemo.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_ic_menu_moreoverflow_mtrl_alpha.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-hdpi\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_ic_go_search_api_mtrl_alpha.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-hdpi\\abc_ic_go_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_035_cover.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\icon_035_cover.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bg_card.9.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\bg_card.9.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_mm_title_act_btn_normal.9.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\em_mm_title_act_btn_normal.9.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_add.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\icon_add.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_logo.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\icon_logo.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_002_cover.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\icon_002_cover.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_list_divider_mtrl_alpha.9.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-hdpi\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_btn_radio_to_on_mtrl_015.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-hdpi\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_btn_radio_to_on_mtrl_000.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-hdpi\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\profile_normal.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\profile_normal.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\aii.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\aii.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-hdpi\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-hdpi\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_me_card.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\icon_me_card.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_addfriend.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\icon_addfriend.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_me_photo.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\icon_me_photo.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_ic_voice_search_api_mtrl_alpha.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-hdpi\\abc_ic_voice_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_012_cover.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\icon_012_cover.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_smiley_add_btn_pressed.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\em_smiley_add_btn_pressed.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_022_cover.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\icon_022_cover.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_btn_rating_star_on_mtrl_alpha.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-hdpi\\abc_btn_rating_star_on_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\zx.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\zx.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_video_recorder_start_btn.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\em_video_recorder_start_btn.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_settings_normal.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\em_settings_normal.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\aun.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\aun.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\profile_pressed.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\profile_pressed.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\umeng_update_btn_check_off_pressed_holo_light.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\umeng_update_btn_check_off_pressed_holo_light.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-hdpi\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\aj2.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\aj2.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_ic_clear_mtrl_alpha.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-hdpi\\abc_ic_clear_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_icon_account.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\em_icon_account.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\aj5.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\aj5.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\right.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\right.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_ic_ab_back_mtrl_am_alpha.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-hdpi\\abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_de_game.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\icon_de_game.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_show_head_toast_bg.9.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\em_show_head_toast_bg.9.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\aub.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\aub.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-hdpi\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\find_pressed.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\find_pressed.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_list_selector_disabled_holo_dark.9.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-hdpi\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\weixin_normal.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\weixin_normal.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_msg_state_fail_resend.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\em_msg_state_fail_resend.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_sex_female.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\ic_sex_female.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_018_cover.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\icon_018_cover.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\img_toolbar_logo.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\img_toolbar_logo.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_conversation_selected.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\em_conversation_selected.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_dx_checkbox_on.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\em_dx_checkbox_on.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_menu_group.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\icon_menu_group.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\umeng_update_close_bg_normal.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\umeng_update_close_bg_normal.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_list_longpressed_holo.9.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-hdpi\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_ic_search_api_mtrl_alpha.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-hdpi\\abc_ic_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_back.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\icon_back.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_settings_selected.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\em_settings_selected.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_instagram_white.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\ic_instagram_white.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_019_cover.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\icon_019_cover.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abs__spinner_ab_default_holo_light.9.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\abs__spinner_ab_default_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_btn_rating_star_off_mtrl_alpha.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-hdpi\\abc_btn_rating_star_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_dx_checkbox_off.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\em_dx_checkbox_off.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_029_cover.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\icon_029_cover.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-hdpi\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_sex_male.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\ic_sex_male.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\wo.9.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\wo.9.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\umeng_update_btn_check_on_pressed_holo_light.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\umeng_update_btn_check_on_pressed_holo_light.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_smiley_add_btn_nor.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\em_smiley_add_btn_nor.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-hdpi\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_to_group_details_normal.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\em_to_group_details_normal.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_public.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\icon_public.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_popup_background_mtrl_mult.9.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-hdpi\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_default_avatar.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\em_default_avatar.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-hdpi\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_icon_pwd.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\em_icon_pwd.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_me_setting.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\icon_me_setting.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-hdpi\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_contact_list_selected.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\em_contact_list_selected.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_unread_count_bg.9.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\em_unread_count_bg.9.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_add_public_group.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\em_add_public_group.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-hdpi\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-hdpi\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_textfield_default_mtrl_alpha.9.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-hdpi\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\aul.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\aul.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_de_ping.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\icon_de_ping.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_de_nearby.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\icon_de_nearby.png"
+    },
+    {
         "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\umeng_update_btn_check_on_focused_holo_light.png",
         "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\umeng_update_btn_check_on_focused_holo_light.png"
+    },
+    {
+        "merged": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\auo.png",
+        "source": "D:\\developer\\ASworkspace\\SuperWeChatV2\\superwechat\\res\\drawable-hdpi\\auo.png"
     }
 ]
