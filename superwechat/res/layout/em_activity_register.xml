@@ -24,7 +24,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
-                android:layout_toLeftOf="@id/iv_username"
                 android:background="@drawable/edittext_login"
                 android:hint="@string/login_txt_username"
                 android:paddingLeft="90dp"

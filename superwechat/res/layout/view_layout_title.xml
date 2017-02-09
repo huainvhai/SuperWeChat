@@ -55,7 +55,8 @@
         style="@style/txt_titleStyle1"
         android:layout_alignParentRight="true"
         android:layout_centerVertical="true"
-        android:text="@string/addcontact_send_msg" />
+        android:text="@string/addcontact_send_msg"
+        android:visibility="gone" />
 
 
 </RelativeLayout>

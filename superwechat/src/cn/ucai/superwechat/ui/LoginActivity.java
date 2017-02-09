@@ -30,17 +30,23 @@ import android.widget.Toast;
 
 import com.hyphenate.EMCallBack;
 import com.hyphenate.chat.EMClient;
+import com.hyphenate.easeui.domain.User;
 import com.hyphenate.easeui.utils.EaseCommonUtils;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
+import cn.ucai.superwechat.I;
 import cn.ucai.superwechat.R;
 import cn.ucai.superwechat.SuperWeChatApplication;
 import cn.ucai.superwechat.SuperWeChatHelper;
 import cn.ucai.superwechat.db.SuperWeChatDBManager;
+import cn.ucai.superwechat.domain.Result;
+import cn.ucai.superwechat.net.NetDao;
+import cn.ucai.superwechat.net.OnCompleteListener;
 import cn.ucai.superwechat.utils.CommonUtils;
 import cn.ucai.superwechat.utils.MFGT;
+import cn.ucai.superwechat.utils.ResultUtils;
 
 /**
  * Login screen
@@ -59,6 +65,9 @@ public class LoginActivity extends BaseActivity {
 
     private boolean progressShow;
     private boolean autoLogin = false;
+    ProgressDialog pd;
+    String currentUsername;
+    String currentPassword;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -108,8 +117,8 @@ public class LoginActivity extends BaseActivity {
             Toast.makeText(this, R.string.network_isnot_available, Toast.LENGTH_SHORT).show();
             return;
         }
-        String currentUsername = etUsername.getText().toString().trim();
-        String currentPassword = etPassword.getText().toString().trim();
+        currentUsername = etUsername.getText().toString().trim();
+        currentPassword = etPassword.getText().toString().trim();
 
         if (TextUtils.isEmpty(currentUsername)) {
             CommonUtils.showShortToast(R.string.User_name_cannot_be_empty);
@@ -121,7 +130,7 @@ public class LoginActivity extends BaseActivity {
         }
 
         progressShow = true;
-        final ProgressDialog pd = new ProgressDialog(LoginActivity.this);
+        pd = new ProgressDialog(LoginActivity.this);
         pd.setCanceledOnTouchOutside(false);
         pd.setOnCancelListener(new OnCancelListener() {
 
@@ -142,7 +151,46 @@ public class LoginActivity extends BaseActivity {
         SuperWeChatHelper.getInstance().setCurrentUserName(currentUsername);
 
         final long start = System.currentTimeMillis();
-        // call login method
+
+        loginAppServer();
+        loginEMServer();
+    }
+
+    private void loginAppServer() {
+        NetDao.login(this, currentUsername, currentPassword, new OnCompleteListener<String>() {
+            @Override
+            public void onSuccess(String s) {
+                if (s != null) {
+                    Result result = ResultUtils.getResultFromJson(s, User.class);
+                    if (result != null && result.isRetMsg()) {
+                        loginEMServer();
+                    } else {
+                        pd.dismiss();
+                        if (result.getRetCode() == I.MSG_LOGIN_UNKNOW_USER) {
+                            CommonUtils.showShortToast(R.string.login_unknown_user);
+                        } else if (result.getRetCode() == I.MSG_LOGIN_ERROR_PASSWORD) {
+                            CommonUtils.showShortToast(R.string.login_error_password);
+                        } else {
+                            CommonUtils.showShortToast(R.string.Login_failed);
+                        }
+                    }
+                } else {
+                    pd.dismiss();
+                    CommonUtils.showShortToast(R.string.Login_failed);
+                }
+            }
+
+            @Override
+            public void onError(String error) {
+                pd.dismiss();
+                CommonUtils.showShortToast(R.string.Login_failed);
+                Log.e(TAG, "error=" + error);
+            }
+        });
+    }
+
+    // call login method
+    private void loginEMServer() {
         Log.d(TAG, "EMClient.getInstance().login");
         EMClient.getInstance().login(currentUsername, currentPassword, new EMCallBack() {
 
