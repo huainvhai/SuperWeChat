@@ -156,8 +156,8 @@ public class UserProfileManager {
             @Override
             public void onSuccess(EaseUser value) {
                 if (value != null) {
-                    setCurrentUserNick(value.getNick());
-                    setCurrentUserAvatar(value.getAvatar());
+                     setCurrentUserNick(value.getNick());
+                    //setCurrentUserAvatar(value.getAvatar());
                 }
             }
 
@@ -174,7 +174,13 @@ public class UserProfileManager {
                     Log.e(TAG, "s=" + s);
                     Result result = ResultUtils.getResultFromJson(s, User.class);
                     if (result != null && result.isRetMsg()) {
-
+                        User user = (User) result.getRetData();
+                        Log.e(TAG, "user=" + user);
+                        if (user != null) {
+                            SuperWeChatHelper.getInstance().saveAppContact(user);
+                            setCurrentUserNick(user.getMUserNick());
+                            setCurrentUserAvatar(user.getAvatar());
+                        }
                     }
                 }
             }
