@@ -8,6 +8,7 @@ import cn.ucai.superwechat.R;
 import cn.ucai.superwechat.ui.GuideActivity;
 import cn.ucai.superwechat.ui.LoginActivity;
 import cn.ucai.superwechat.ui.RegisterActivity;
+import cn.ucai.superwechat.ui.SettingsActivity;
 import cn.ucai.superwechat.ui.SplashActivity;
 
 /**
@@ -34,11 +35,20 @@ public class MFGT {
         startActivity(activity, LoginActivity.class);
     }
 
+    public static void gotoLoginCleanTask(Activity activity) {
+        startActivity(activity, new Intent(activity,LoginActivity.class
+                ).setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK));
+    }
+
     public static void gotoRegister(Activity activity) {
         startActivity(activity, RegisterActivity.class);
     }
 
     public static void gotoGuide(Activity activity) {
         startActivity(activity, GuideActivity.class);
+    }
+
+    public static void gotoSettings(Activity activity) {
+        startActivity(activity, SettingsActivity.class);
     }
 }
