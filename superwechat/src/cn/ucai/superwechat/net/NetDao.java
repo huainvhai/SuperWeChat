@@ -48,4 +48,13 @@ public class NetDao {
                 .targetClass(String.class)
                 .execute(listener);
     }
+
+    public static void updateUserNick(Context context,String username,String nickName,OnCompleteListener<String> listener){
+        OkHttpUtils<String> utils = new OkHttpUtils<>(context);
+        utils.setRequestUrl(I.REQUEST_UPDATE_USER_NICK)
+                .addParam(I.User.USER_NAME, username)
+                .addParam(I.User.NICK,nickName)
+                .targetClass(String.class)
+                .execute(listener);
+    }
 }
