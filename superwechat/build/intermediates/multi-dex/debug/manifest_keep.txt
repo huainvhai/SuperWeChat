@@ -5,6 +5,7 @@
 -keep class cn.ucai.superwechat.ui.MainActivity { <init>(); }
 -keep class cn.ucai.superwechat.ui.SplashActivity { <init>(); }
 -keep class cn.ucai.superwechat.ui.LoginActivity { <init>(); }
+-keep class cn.ucai.superwechat.ui.SettingsActivity { <init>(); }
 -keep class cn.ucai.superwechat.ui.RegisterActivity { <init>(); }
 -keep class cn.ucai.superwechat.ui.ChatActivity { <init>(); }
 -keep class cn.ucai.superwechat.ui.AddContactActivity { <init>(); }

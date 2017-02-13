@@ -30,6 +30,10 @@
     <init>();
 }
 
+-keep class cn.ucai.superwechat.ui.SettingsActivity {
+    <init>();
+}
+
 -keep class cn.ucai.superwechat.ui.RegisterActivity {
     <init>();
 }
