@@ -19,7 +19,7 @@ import cn.ucai.superwechat.R;
 import cn.ucai.superwechat.SuperWeChatHelper;
 import cn.ucai.superwechat.utils.MFGT;
 
-public class FriendProfileActivity extends AppCompatActivity {
+public class FriendProfileActivity extends BaseActivity {
     private static final String TAG = FriendProfileActivity.class.getSimpleName();
 
     @BindView(R.id.img_back)
@@ -88,5 +88,10 @@ public class FriendProfileActivity extends AppCompatActivity {
     @OnClick(R.id.img_back)
     public void onClick() {
         finish();
+    }
+
+    @OnClick(R.id.btn_add_contact)
+    public void sendAddContactMsg(){
+        MFGT.gotoAddContact(this,user.getMUserName());
     }
 }
