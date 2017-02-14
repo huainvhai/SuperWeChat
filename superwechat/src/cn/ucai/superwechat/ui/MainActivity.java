@@ -33,6 +33,7 @@ import android.support.v4.view.ViewPager;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -65,11 +66,14 @@ import cn.ucai.superwechat.adapter.MainTabAdpter;
 import cn.ucai.superwechat.db.InviteMessgeDao;
 import cn.ucai.superwechat.runtimepermissions.PermissionsManager;
 import cn.ucai.superwechat.runtimepermissions.PermissionsResultAction;
+import cn.ucai.superwechat.utils.MFGT;
 import cn.ucai.superwechat.widget.DMTabHost;
 import cn.ucai.superwechat.widget.MFViewPager;
+import cn.ucai.superwechat.widget.TitleMenu.ActionItem;
+import cn.ucai.superwechat.widget.TitleMenu.TitlePopup;
 
 @SuppressLint("NewApi")
-public class MainActivity extends BaseActivity implements DMTabHost.OnCheckedChangeListener,ViewPager.OnPageChangeListener{
+public class MainActivity extends BaseActivity implements DMTabHost.OnCheckedChangeListener, ViewPager.OnPageChangeListener {
 
     protected static final String TAG = "MainActivity";
     @BindView(R.id.txt_left)
@@ -80,12 +84,7 @@ public class MainActivity extends BaseActivity implements DMTabHost.OnCheckedCha
     MFViewPager layoutViewpage;
     @BindView(R.id.layout_tabhost)
     DMTabHost layoutTabhost;
-    // textview for unread message count
-    //private TextView unreadLabel;
-    // textview for unread event message
-    //private TextView unreadAddressLable;
 
-    private Button[] mTabs;
     private ContactListFragment contactListFragment;
     private ConversationListFragment conversationListFragment;
     private DiscoverFragment discoverFragment;
@@ -98,6 +97,7 @@ public class MainActivity extends BaseActivity implements DMTabHost.OnCheckedCha
     private boolean isCurrentAccountRemoved = false;
 
     MainTabAdpter mAdapter;
+    TitlePopup mTitlePopup;
 
     /**
      * check if current user account was remove
@@ -208,48 +208,28 @@ public class MainActivity extends BaseActivity implements DMTabHost.OnCheckedCha
      * init views
      */
     private void initView() {
-//        unreadLabel = (TextView) findViewById(R.id.unread_msg_number);
-//        unreadAddressLable = (TextView) findViewById(R.id.unread_address_number);
-//        mTabs = new Button[3];
-//        mTabs[0] = (Button) findViewById(R.id.btn_conversation);
-//        mTabs[1] = (Button) findViewById(R.id.btn_address_list);
-//        mTabs[2] = (Button) findViewById(R.id.btn_setting);
-//        // select first tab
-//        mTabs[0].setSelected(true);
         txtLeft.setVisibility(View.VISIBLE);
         imgRight.setVisibility(View.VISIBLE);
+        mTitlePopup = new TitlePopup(this, ViewGroup.LayoutParams.WRAP_CONTENT,
+                ViewGroup.LayoutParams.WRAP_CONTENT);
+        mTitlePopup.addAction(new ActionItem(this, R.string.menu_groupchat, R.drawable.icon_menu_group));
+        mTitlePopup.addAction(new ActionItem(this, R.string.menu_addfriend, R.drawable.icon_menu_addfriend));
+        mTitlePopup.addAction(new ActionItem(this, R.string.menu_qrcode, R.drawable.icon_menu_sao));
+        mTitlePopup.addAction(new ActionItem(this, R.string.menu_money, R.drawable.icon_menu_money));
+        mTitlePopup.setItemOnClickListener(new TitlePopup.OnItemOnClickListener() {
+            @Override
+            public void onItemClick(ActionItem item, int position) {
+                Log.e(TAG, "item=" + item + ",position=" + position);
+                switch (position){
+                    case 1:
+                        MFGT.gotoAddFriend(MainActivity.this);
+                        break;
+
+                }
+            }
+        });
     }
 
-    /**
-     * on tab clicked
-     *
-     * @param view
-     */
-    public void onTabClicked(View view) {
-//        switch (view.getId()) {
-//            case R.id.btn_conversation:
-//                index = 0;
-//                break;
-//            case R.id.btn_address_list:
-//                index = 1;
-//                break;
-//            case R.id.btn_setting:
-//                index = 2;
-//                break;
-//        }
-//        if (currentTabIndex != index) {
-//            FragmentTransaction trx = getSupportFragmentManager().beginTransaction();
-//            trx.hide(fragments[currentTabIndex]);
-//            if (!fragments[index].isAdded()) {
-//                trx.add(R.id.fragment_container, fragments[index]);
-//            }
-//            trx.show(fragments[index]).commit();
-//        }
-//        mTabs[currentTabIndex].setSelected(false);
-//        // set current tab selected
-//        mTabs[index].setSelected(true);
-//        currentTabIndex = index;
-    }
 
     EMMessageListener messageListener = new EMMessageListener() {
 
@@ -350,7 +330,8 @@ public class MainActivity extends BaseActivity implements DMTabHost.OnCheckedCha
     }
 
     @OnClick(R.id.img_right)
-    public void onClick() {
+    public void showPopup() {
+        mTitlePopup.show(findViewById(R.id.layout_title));
     }
 
     @Override
@@ -360,7 +341,7 @@ public class MainActivity extends BaseActivity implements DMTabHost.OnCheckedCha
 
     @Override
     public void onPageSelected(int position) {
-        Log.e(TAG," onPageSelected   position=" + position);
+        Log.e(TAG, " onPageSelected   position=" + position);
         layoutTabhost.setChecked(position);
     }
 
@@ -372,8 +353,8 @@ public class MainActivity extends BaseActivity implements DMTabHost.OnCheckedCha
     //True to smoothly scroll to the new item, false to transition immediately
     @Override
     public void onCheckedChange(int checkedPosition, boolean byUser) {
-        Log.e(TAG," onCheckedChange   checkedPosition=" + checkedPosition);
-        layoutViewpage.setCurrentItem(checkedPosition,false);
+        Log.e(TAG, " onCheckedChange   checkedPosition=" + checkedPosition);
+        layoutViewpage.setCurrentItem(checkedPosition, false);
     }
 
     public class MyContactListener implements EMContactListener {

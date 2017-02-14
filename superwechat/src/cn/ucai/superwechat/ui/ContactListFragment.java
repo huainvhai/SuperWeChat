@@ -73,6 +73,7 @@ public class ContactListFragment extends EaseContactListFragment {
         contentContainer.addView(loadingView);
 
         registerForContextMenu(listView);
+        hideTitleBar();
     }
     
     @Override
