@@ -661,6 +661,7 @@ public class SuperWeChatHelper {
 
         @Override
         public void onContactAdded(String username) {
+            Log.e(TAG, "onContactAdded....username=" + username);
             // save contact
             Map<String, EaseUser> localUsers = getContactList();
             Map<String, EaseUser> toAddUsers = new HashMap<String, EaseUser>();
@@ -677,6 +678,7 @@ public class SuperWeChatHelper {
 
         @Override
         public void onContactDeleted(String username) {
+            Log.e(TAG, "onContactDeleted....username=" + username);
             Map<String, EaseUser> localUsers = SuperWeChatHelper.getInstance().getContactList();
             localUsers.remove(username);
             userDao.deleteContact(username);
@@ -687,6 +689,7 @@ public class SuperWeChatHelper {
 
         @Override
         public void onContactInvited(String username, String reason) {
+            Log.e(TAG, "onContactInvited....username=" + username);
             List<InviteMessage> msgs = inviteMessgeDao.getMessagesList();
 
             for (InviteMessage inviteMessage : msgs) {
@@ -708,6 +711,7 @@ public class SuperWeChatHelper {
 
         @Override
         public void onFriendRequestAccepted(String username) {
+            Log.e(TAG, "onFriendRequestAccepted....username=" + username);
             List<InviteMessage> msgs = inviteMessgeDao.getMessagesList();
             for (InviteMessage inviteMessage : msgs) {
                 if (inviteMessage.getFrom().equals(username)) {

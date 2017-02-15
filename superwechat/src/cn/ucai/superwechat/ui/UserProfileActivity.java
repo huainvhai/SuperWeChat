@@ -46,6 +46,7 @@ import cn.ucai.superwechat.domain.Result;
 import cn.ucai.superwechat.net.NetDao;
 import cn.ucai.superwechat.net.OnCompleteListener;
 import cn.ucai.superwechat.utils.CommonUtils;
+import cn.ucai.superwechat.utils.MFGT;
 import cn.ucai.superwechat.utils.PreferenceManager;
 import cn.ucai.superwechat.utils.ResultUtils;
 
@@ -336,6 +337,7 @@ public class UserProfileActivity extends BaseActivity implements OnClickListener
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.img_back:
+                MFGT.finish(this);
                 break;
             case R.id.layout_userinfo_avatar:
                 uploadHeadPhoto();
