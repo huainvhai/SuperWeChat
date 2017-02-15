@@ -1202,6 +1202,37 @@ public class SuperWeChatHelper {
                         return;
                     }
 
+                    NetDao.downloadContactList(appContext, EMClient.getInstance().getCurrentUser(),
+                            new OnCompleteListener<String>() {
+                                @Override
+                                public void onSuccess(String s) {
+                                    if (s != null) {
+                                        Result result = ResultUtils.getListResultFromJson(s, User.class);
+                                        if (result != null && result.isRetMsg()) {
+                                            List<User> contactList = (List<User>) result.getRetData();
+                                            if (contactList != null && contactList.size() > 0) {
+                                                Map<String, User> contactMap = new HashMap<String, User>();
+                                                for (User u : contactList) {
+                                                    EaseCommonUtils.setAppUserInitialLetter(u);
+                                                    contactMap.put(username, u);
+                                                }
+                                                // save the contact list to cache
+                                                getAppContactList().clear();
+                                                getAppContactList().putAll(contactMap);
+                                                // save the contact list to database
+                                                UserDao dao = new UserDao(appContext);
+                                                dao.saveAppContactList(contactList);
+                                                broadcastManager.sendBroadcast(new Intent(Constant.ACTION_CONTACT_CHANAGED));
+                                            }
+                                        }
+                                    }
+                                }
+
+                                @Override
+                                public void onError(String error) {
+
+                                }
+                            });
                     Map<String, EaseUser> userlist = new HashMap<String, EaseUser>();
                     for (String username : usernames) {
                         EaseUser user = new EaseUser(username);
