@@ -60,6 +60,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 import cn.ucai.superwechat.Constant;
+import cn.ucai.superwechat.I;
 import cn.ucai.superwechat.R;
 import cn.ucai.superwechat.SuperWeChatHelper;
 import cn.ucai.superwechat.adapter.MainTabAdpter;
@@ -584,6 +585,11 @@ public class MainActivity extends BaseActivity implements DMTabHost.OnCheckedCha
     protected void onNewIntent(Intent intent) {
         super.onNewIntent(intent);
         showExceptionDialogFromIntent(intent);
+
+        boolean isChat = intent.getBooleanExtra(I.BACK_MAIN_FROM_CHAT, false);
+        if (isChat) {
+            layoutTabhost.setChecked(0);
+        }
     }
 
     /**

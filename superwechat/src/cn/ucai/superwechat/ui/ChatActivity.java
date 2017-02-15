@@ -3,8 +3,12 @@ package cn.ucai.superwechat.ui;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
+import android.util.Log;
+
 import cn.ucai.superwechat.R;
 import cn.ucai.superwechat.runtimepermissions.PermissionsManager;
+import cn.ucai.superwechat.utils.MFGT;
+
 import com.hyphenate.easeui.ui.EaseChatFragment;
 import com.hyphenate.util.EasyUtils;
 
@@ -13,6 +17,8 @@ import com.hyphenate.util.EasyUtils;
  *
  */
 public class ChatActivity extends BaseActivity{
+    private static final String TAG = ChatActivity.class.getSimpleName();
+
     public static ChatActivity activityInstance;
     private EaseChatFragment chatFragment;
     String toChatUsername;
@@ -35,6 +41,7 @@ public class ChatActivity extends BaseActivity{
     @Override
     protected void onDestroy() {
         super.onDestroy();
+        Log.e(TAG,"onDestory");
         activityInstance = null;
     }
     
@@ -53,11 +60,13 @@ public class ChatActivity extends BaseActivity{
     
     @Override
     public void onBackPressed() {
-        chatFragment.onBackPressed();
-        if (EasyUtils.isSingleActivity(this)) {
-            Intent intent = new Intent(this, MainActivity.class);
-            startActivity(intent);
-        }
+        Log.e(TAG,"onBackPressed");
+        //chatFragment.onBackPressed();
+        //if (EasyUtils.isSingleActivity(this)) {
+//            Intent intent = new Intent(this, MainActivity.class);
+//            startActivity(intent);
+        MFGT.gotoMain(this);
+        //}
     }
     
     public String getToChatUsername(){

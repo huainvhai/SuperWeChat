@@ -13,6 +13,7 @@ import android.os.Handler;
 import android.provider.MediaStore;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v4.widget.SwipeRefreshLayout.OnRefreshListener;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
@@ -68,7 +69,7 @@ import java.util.List;
  *
  */
 public class EaseChatFragment extends EaseBaseFragment implements EMMessageListener {
-    protected static final String TAG = "EaseChatFragment";
+    protected static final String TAG = EaseChatFragment.class.getSimpleName();
     protected static final int REQUEST_CODE_MAP = 1;
     protected static final int REQUEST_CODE_CAMERA = 2;
     protected static final int REQUEST_CODE_LOCAL = 3;
@@ -447,12 +448,11 @@ public class EaseChatFragment extends EaseBaseFragment implements EMMessageListe
         if(chatRoomChangeListener != null){
             EMClient.getInstance().chatroomManager().removeChatRoomChangeListener(chatRoomChangeListener);
         }
-        
     }
 
     public void onBackPressed() {
+        Log.e(TAG,"onBackPressed");
         if (inputMenu.onBackPressed()) {
-            getActivity().finish();
             if(chatType == EaseConstant.CHATTYPE_GROUP){
                 EaseAtMessageHelper.get().removeAtMeGroup(toChatUsername);
                 EaseAtMessageHelper.get().cleanToAtUserList();
@@ -461,6 +461,7 @@ public class EaseChatFragment extends EaseBaseFragment implements EMMessageListe
             	EMClient.getInstance().chatroomManager().leaveChatRoom(toChatUsername);
             }
         }
+        getActivity().onBackPressed();
     }
 
     protected void onChatRoomViewCreation() {
