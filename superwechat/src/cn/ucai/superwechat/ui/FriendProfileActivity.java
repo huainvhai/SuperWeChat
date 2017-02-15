@@ -17,7 +17,11 @@ import butterknife.OnClick;
 import cn.ucai.superwechat.I;
 import cn.ucai.superwechat.R;
 import cn.ucai.superwechat.SuperWeChatHelper;
+import cn.ucai.superwechat.domain.Result;
+import cn.ucai.superwechat.net.NetDao;
+import cn.ucai.superwechat.net.OnCompleteListener;
 import cn.ucai.superwechat.utils.MFGT;
+import cn.ucai.superwechat.utils.ResultUtils;
 
 public class FriendProfileActivity extends BaseActivity {
     private static final String TAG = FriendProfileActivity.class.getSimpleName();
@@ -58,8 +62,37 @@ public class FriendProfileActivity extends BaseActivity {
         if (user != null) {
             showUserInfo();
         } else {
-            MFGT.finish(this);
+            String username = getIntent().getStringExtra("application");
+            if (username == null) {
+                MFGT.finish(this);
+            } else {
+                //根据用户名查找个人信息
+                syncUserInfo(username);
+            }
         }
+    }
+
+    private void syncUserInfo(String username) {
+        NetDao.findUserByUserName(this, username, new OnCompleteListener<String>() {
+            @Override
+            public void onSuccess(String s) {
+                if (s != null) {
+                    Result result = ResultUtils.getResultFromJson(s, User.class);
+                    if (result != null && result.isRetMsg()) {
+                        User u = (User) result.getRetData();
+                        if (u != null) {
+                            user = u;
+                            showUserInfo();
+                        }
+                    }
+                }
+            }
+
+            @Override
+            public void onError(String error) {
+
+            }
+        });
     }
 
     private void showUserInfo() {
@@ -91,7 +124,7 @@ public class FriendProfileActivity extends BaseActivity {
     }
 
     @OnClick(R.id.btn_add_contact)
-    public void sendAddContactMsg(){
-        MFGT.gotoAddContact(this,user.getMUserName());
+    public void sendAddContactMsg() {
+        MFGT.gotoAddContact(this, user.getMUserName());
     }
 }
