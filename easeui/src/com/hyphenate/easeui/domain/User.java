@@ -5,122 +5,124 @@ import com.hyphenate.easeui.utils.EaseCommonUtils;
 import java.io.Serializable;
 
 public class User implements Serializable {
-	private String muserName;
-	private String muserNick;
-	private Integer mavatarId;
-	private String mavatarPath;
-	private String mavatarSuffix;
-	private Integer mavatarType;
-	private String mavatarLastUpdateTime;
+    private String muserName;
+    private String muserNick;
+    private Integer mavatarId;
+    private String mavatarPath;
+    private String mavatarSuffix;
+    private Integer mavatarType;
+    private String mavatarLastUpdateTime;
 
-	/**
-	 * initial letter for nickname
-	 */
-	protected String initialLetter;
-	
-	public User() {
-		super();
-	}
+    /**
+     * initial letter for nickname
+     */
+    protected String initialLetter;
 
-	public User(String muserName) {
-		this.muserName = muserName;
-	}
+    public User() {
+        super();
+    }
 
-	public User(String muserName, String muserNick,
-				Integer mavatarId, String mavatarPath, String mavatarSuffix, Integer mavatarType,
-				String mavatarLastUpdateTime) {
-		super();
-		this.muserName = muserName;
-		this.muserNick = muserNick;
-		this.mavatarId = mavatarId;
-		this.mavatarPath = mavatarPath;
-		this.mavatarSuffix = mavatarSuffix;
-		this.mavatarType = mavatarType;
-		this.mavatarLastUpdateTime = mavatarLastUpdateTime;
-	}
+    public User(String muserName) {
+        this.muserName = muserName;
+    }
 
-	public String getMUserName() {
-		return muserName;
-	}
+    public User(String muserName, String muserNick,
+                Integer mavatarId, String mavatarPath, String mavatarSuffix, Integer mavatarType,
+                String mavatarLastUpdateTime) {
+        super();
+        this.muserName = muserName;
+        this.muserNick = muserNick;
+        this.mavatarId = mavatarId;
+        this.mavatarPath = mavatarPath;
+        this.mavatarSuffix = mavatarSuffix;
+        this.mavatarType = mavatarType;
+        this.mavatarLastUpdateTime = mavatarLastUpdateTime;
+    }
 
-	public void setMUserName(String muserName) {
-		this.muserName = muserName;
-	}
+    public String getMUserName() {
+        return muserName;
+    }
 
-	public String getMUserNick() {
-		return muserNick;
-	}
+    public void setMUserName(String muserName) {
+        this.muserName = muserName;
+    }
 
-	public void setMUserNick(String muserNick) {
-		this.muserNick = muserNick;
-	}
-	
-	public Integer getMAvatarId() {
-		return mavatarId;
-	}
+    public String getMUserNick() {
+        return muserNick;
+    }
 
-	public void setMAvatarId(Integer mavatarId) {
-		this.mavatarId = mavatarId;
-	}
-	public String getMAvatarPath() {
-		return mavatarPath;
-	}
+    public void setMUserNick(String muserNick) {
+        this.muserNick = muserNick;
+    }
 
-	public void setMAvatarPath(String mavatarPath) {
-		this.mavatarPath = mavatarPath;
-	}
+    public Integer getMAvatarId() {
+        return mavatarId;
+    }
 
-	public Integer getMAvatarType() {
-		return mavatarType;
-	}
+    public void setMAvatarId(Integer mavatarId) {
+        this.mavatarId = mavatarId;
+    }
 
-	public void setMAvatarType(Integer mavatarType) {
-		this.mavatarType = mavatarType;
-	}
+    public String getMAvatarPath() {
+        return mavatarPath;
+    }
 
-	public String getMAvatarLastUpdateTime() {
-		return mavatarLastUpdateTime;
-	}
+    public void setMAvatarPath(String mavatarPath) {
+        this.mavatarPath = mavatarPath;
+    }
 
-	public void setMAvatarLastUpdateTime(String mavatarLastUpdateTime) {
-		this.mavatarLastUpdateTime = mavatarLastUpdateTime;
-	}
-	
-	public void setMAvatarSuffix(String mavatarSuffix) {
-		this.mavatarSuffix = mavatarSuffix;
-	}
+    public Integer getMAvatarType() {
+        return mavatarType;
+    }
 
-	public String getMAvatarSuffix() {
-		return mavatarSuffix==null?".jpg":mavatarSuffix;
-	}
+    public void setMAvatarType(Integer mavatarType) {
+        this.mavatarType = mavatarType;
+    }
 
-	@Override
-	public String toString() {
-		return "User{" +
-				"muserName='" + muserName + '\'' +
-				", muserNick='" + muserNick + '\'' +
-				", mavatarId=" + mavatarId +
-				", mavatarPath='" + mavatarPath + '\'' +
-				", mavatarSuffix='" + mavatarSuffix + '\'' +
-				", mavatarType=" + mavatarType +
-				", mavatarLastUpdateTime='" + mavatarLastUpdateTime + '\'' +
-				", initialLetter='" + initialLetter + '\'' +
-				'}';
-	}
+    public String getMAvatarLastUpdateTime() {
+        return mavatarLastUpdateTime == null ? String.valueOf(System.currentTimeMillis())
+                : mavatarLastUpdateTime;
+    }
 
-	public String getInitialLetter() {
-		if(initialLetter == null){
-			EaseCommonUtils.setAppUserInitialLetter(this);
-		}
-		return initialLetter;
-	}
+    public void setMAvatarLastUpdateTime(String mavatarLastUpdateTime) {
+        this.mavatarLastUpdateTime = mavatarLastUpdateTime;
+    }
 
-	public void setInitialLetter(String initialLetter) {
-		this.initialLetter = initialLetter;
-	}
+    public void setMAvatarSuffix(String mavatarSuffix) {
+        this.mavatarSuffix = mavatarSuffix;
+    }
 
-	public String getAvatar() {
-		String path = "http://101.251.196.90:8000/SuperWeChatServerV2.0/downloadAvatar?name_or_hxid="+getMUserName()+"&avatarType=user_avatar&m_avatar_suffix="+getMAvatarSuffix()+"&updatetime="+getMAvatarLastUpdateTime();
-		return path;
-	}
+    public String getMAvatarSuffix() {
+        return mavatarSuffix == null ? ".jpg" : mavatarSuffix;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "muserName='" + muserName + '\'' +
+                ", muserNick='" + muserNick + '\'' +
+                ", mavatarId=" + mavatarId +
+                ", mavatarPath='" + mavatarPath + '\'' +
+                ", mavatarSuffix='" + mavatarSuffix + '\'' +
+                ", mavatarType=" + mavatarType +
+                ", mavatarLastUpdateTime='" + mavatarLastUpdateTime + '\'' +
+                ", initialLetter='" + initialLetter + '\'' +
+                '}';
+    }
+
+    public String getInitialLetter() {
+        if (initialLetter == null) {
+            EaseCommonUtils.setAppUserInitialLetter(this);
+        }
+        return initialLetter;
+    }
+
+    public void setInitialLetter(String initialLetter) {
+        this.initialLetter = initialLetter;
+    }
+
+    public String getAvatar() {
+        String path = "http://101.251.196.90:8000/SuperWeChatServerV2.0/downloadAvatar?name_or_hxid=" + getMUserName() + "&avatarType=user_avatar&m_avatar_suffix=" + getMAvatarSuffix() + "&updatetime=" + getMAvatarLastUpdateTime();
+        return path;
+    }
 }

@@ -34,7 +34,6 @@ import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -417,13 +416,9 @@ public class MainActivity extends BaseActivity implements DMTabHost.OnCheckedCha
      * update unread message count
      */
     public void updateUnreadLabel() {
-//        int count = getUnreadMsgCountTotal();
-//        if (count > 0) {
-//            unreadLabel.setText(String.valueOf(count));
-//            unreadLabel.setVisibility(View.VISIBLE);
-//        } else {
-//            unreadLabel.setVisibility(View.INVISIBLE);
-//        }
+        int count = getUnreadMsgCountTotal();
+        Log.e(TAG, "updateUnreadLabel,count=" + count);
+        layoutTabhost.setUnreadCount(0, count);
     }
 
     /**
