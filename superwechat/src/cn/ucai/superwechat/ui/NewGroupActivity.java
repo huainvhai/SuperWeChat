@@ -159,6 +159,7 @@ public class NewGroupActivity extends BaseActivity {
                 final String groupName = editGroupName.getText().toString().trim();
                 String desc = editGroupIntroduction.getText().toString();
                 String[] members = data.getStringArrayExtra("newmembers");
+                Log.e(TAG,"members=" + members);
                 try {
                     EMGroupOptions option = new EMGroupOptions();
                     option.maxUsers = 200;
@@ -172,7 +173,7 @@ public class NewGroupActivity extends BaseActivity {
                         option.style = cbMemberInviter.isChecked() ? EMGroupStyle.EMGroupStylePrivateMemberCanInvite : EMGroupStyle.EMGroupStylePrivateOnlyOwnerInvite;
                     }
                     EMGroup group = EMClient.getInstance().groupManager().createGroup(groupName, desc, members, reason, option);
-                    createAppGroup(group);
+                    createAppGroup(group, members);
 
                 } catch (final HyphenateException e) {
                     runOnUiThread(new Runnable() {
@@ -187,7 +188,8 @@ public class NewGroupActivity extends BaseActivity {
         }).start();
     }
 
-    private void createAppGroup(EMGroup group) {
+    private void createAppGroup(final EMGroup group, final String[] members) {
+        Log.e(TAG, "file=" + file);
         NetDao.createGroup(this, group, file, new OnCompleteListener<String>() {
             @Override
             public void onSuccess(String s) {
@@ -197,7 +199,11 @@ public class NewGroupActivity extends BaseActivity {
                     Log.e(TAG, "result=" + result);
                     if (result != null) {
                         if (result.isRetMsg()) {
-                            createGroupSuccess();
+                            if (members != null && members.length > 0) {
+                                addGroupMembers(group.getGroupId(), members);
+                            } else {
+                                createGroupSuccess();
+                            }
                         } else {
                             progressDialog.dismiss();
                             if (result.getRetCode() == I.MSG_GROUP_HXID_EXISTS) {
@@ -220,6 +226,47 @@ public class NewGroupActivity extends BaseActivity {
         });
     }
 
+    private void addGroupMembers(String groupId, final String[] members) {
+        NetDao.addGroupMember(this, getGroupMembers(members), groupId, new OnCompleteListener<String>() {
+            @Override
+            public void onSuccess(String s) {
+                Log.e(TAG, "s=" + s);
+                progressDialog.dismiss();
+                boolean success = false;
+                if (s != null) {
+                    Result result = ResultUtils.getResultFromJson(s, Group.class);
+                    if (result != null && result.isRetMsg()) {
+                        success = true;
+                        Log.e(TAG, members.toString());
+                        createGroupSuccess();
+                    }
+                }
+                if (!success) {
+                    progressDialog.dismiss();
+                    CommonUtils.showShortToast(R.string.Failed_to_create_groups);
+                }
+            }
+
+            @Override
+            public void onError(String error) {
+                Log.e(TAG, "error=" + error);
+                progressDialog.dismiss();
+                CommonUtils.showShortToast(R.string.Failed_to_create_groups);
+            }
+        });
+    }
+
+    private String getGroupMembers(String[] members) {
+        String memberStr = "";
+        if (members.length > 0) {
+            for (String s : members) {
+                memberStr += s + ",";
+            }
+        }
+        Log.e(TAG,"memberStr=" + memberStr);
+        return memberStr;
+    }
+
 
     public void back(View view) {
         finish();
@@ -227,13 +274,15 @@ public class NewGroupActivity extends BaseActivity {
 
     private void createGroupSuccess() {
         Log.e(TAG, "createGroupSuccess");
-        runOnUiThread(new Runnable() {
-            public void run() {
-                progressDialog.dismiss();
-                setResult(RESULT_OK);
-                finish();
-            }
-        });
+        if (progressDialog != null && progressDialog.isShowing()) {
+            runOnUiThread(new Runnable() {
+                public void run() {
+                    progressDialog.dismiss();
+                    setResult(RESULT_OK);
+                    finish();
+                }
+            });
+        }
     }
 
     @OnClick(R.id.layout_group_icon)
@@ -282,7 +331,7 @@ public class NewGroupActivity extends BaseActivity {
     }
 
     @OnClick(R.id.btn_save)
-    public void save(){
+    public void save() {
         String name = editGroupName.getText().toString();
         if (TextUtils.isEmpty(name)) {
             new EaseAlertDialog(this, R.string.Group_name_cannot_be_empty).show();

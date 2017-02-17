@@ -770,30 +770,32 @@ public class SuperWeChatHelper {
         if (inviteMessgeDao == null) {
             inviteMessgeDao = new InviteMessgeDao(appContext);
         }
-        NetDao.findUserByUserName(appContext, msg.getFrom(), new OnCompleteListener<String>() {
-            @Override
-            public void onSuccess(String s) {
-                if (s != null) {
-                    Result result = ResultUtils.getResultFromJson(s, User.class);
-                    if (result != null) {
-                        User user = (User) result.getRetData();
-                        Log.e(TAG, "user=" + user);
-                        if (user != null) {
-                            msg.setNickName(user.getMUserNick());
-                            msg.setAvatarSuffix(user.getMAvatarSuffix());
-                            msg.setAvatarTime(user.getMAvatarLastUpdateTime());
+        if (msg.getGroupId() == null) {
+            NetDao.findUserByUserName(appContext, msg.getFrom(), new OnCompleteListener<String>() {
+                @Override
+                public void onSuccess(String s) {
+                    if (s != null) {
+                        Result result = ResultUtils.getResultFromJson(s, User.class);
+                        if (result != null) {
+                            User user = (User) result.getRetData();
+                            Log.e(TAG, "user=" + user);
+                            if (user != null) {
+                                msg.setNickName(user.getMUserNick());
+                                msg.setAvatarSuffix(user.getMAvatarSuffix());
+                                msg.setAvatarTime(user.getMAvatarLastUpdateTime());
+                            }
                         }
                     }
+                    inviteMessgeDao.saveMessage(msg);
                 }
-                inviteMessgeDao.saveMessage(msg);
-            }
 
-            @Override
-            public void onError(String error) {
-                Log.e(TAG, "error=" + error);
-                inviteMessgeDao.saveMessage(msg);
-            }
-        });
+                @Override
+                public void onError(String error) {
+                    Log.e(TAG, "error=" + error);
+                    inviteMessgeDao.saveMessage(msg);
+                }
+            });
+        }
 
         //increase the unread message count
         inviteMessgeDao.saveUnreadMessageCount(1);
