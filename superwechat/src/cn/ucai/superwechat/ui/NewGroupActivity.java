@@ -200,6 +200,7 @@ public class NewGroupActivity extends BaseActivity {
                     if (result != null) {
                         if (result.isRetMsg()) {
                             if (members != null && members.length > 0) {
+                                Log.e(TAG,"进入添加群组成员界面");
                                 addGroupMembers(group.getGroupId(), members);
                             } else {
                                 createGroupSuccess();
@@ -227,14 +228,16 @@ public class NewGroupActivity extends BaseActivity {
     }
 
     private void addGroupMembers(String groupId, final String[] members) {
+        Log.e(TAG,"addGroupMembers");
         NetDao.addGroupMember(this, getGroupMembers(members), groupId, new OnCompleteListener<String>() {
             @Override
             public void onSuccess(String s) {
-                Log.e(TAG, "s=" + s);
+                Log.e(TAG, "addGroupMembers,s=" + s);
                 progressDialog.dismiss();
                 boolean success = false;
                 if (s != null) {
                     Result result = ResultUtils.getResultFromJson(s, Group.class);
+                    Log.e(TAG, "addGroupMembers,result=" + result);
                     if (result != null && result.isRetMsg()) {
                         success = true;
                         Log.e(TAG, members.toString());
