@@ -159,7 +159,7 @@ public class NewGroupActivity extends BaseActivity {
                 final String groupName = editGroupName.getText().toString().trim();
                 String desc = editGroupIntroduction.getText().toString();
                 String[] members = data.getStringArrayExtra("newmembers");
-                Log.e(TAG,"members=" + members);
+                Log.e(TAG, "members=" + members);
                 try {
                     EMGroupOptions option = new EMGroupOptions();
                     option.maxUsers = 200;
@@ -200,7 +200,7 @@ public class NewGroupActivity extends BaseActivity {
                     if (result != null) {
                         if (result.isRetMsg()) {
                             if (members != null && members.length > 0) {
-                                Log.e(TAG,"进入添加群组成员界面");
+                                Log.e(TAG, "进入添加群组成员界面");
                                 addGroupMembers(group.getGroupId(), members);
                             } else {
                                 createGroupSuccess();
@@ -228,7 +228,7 @@ public class NewGroupActivity extends BaseActivity {
     }
 
     private void addGroupMembers(String groupId, final String[] members) {
-        Log.e(TAG,"addGroupMembers");
+        Log.e(TAG, "addGroupMembers");
         NetDao.addGroupMember(this, getGroupMembers(members), groupId, new OnCompleteListener<String>() {
             @Override
             public void onSuccess(String s) {
@@ -266,7 +266,7 @@ public class NewGroupActivity extends BaseActivity {
                 memberStr += s + ",";
             }
         }
-        Log.e(TAG,"memberStr=" + memberStr);
+        Log.e(TAG, "memberStr=" + memberStr);
         return memberStr;
     }
 
@@ -277,15 +277,15 @@ public class NewGroupActivity extends BaseActivity {
 
     private void createGroupSuccess() {
         Log.e(TAG, "createGroupSuccess");
-        if (progressDialog != null && progressDialog.isShowing()) {
-            runOnUiThread(new Runnable() {
-                public void run() {
+        runOnUiThread(new Runnable() {
+            public void run() {
+                if (progressDialog != null && progressDialog.isShowing()) {
                     progressDialog.dismiss();
                     setResult(RESULT_OK);
                     finish();
                 }
-            });
-        }
+            }
+        });
     }
 
     @OnClick(R.id.layout_group_icon)
