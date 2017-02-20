@@ -18,6 +18,7 @@ import android.app.ProgressDialog;
 import android.content.ContentValues;
 import android.content.Context;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
@@ -41,6 +42,7 @@ import cn.ucai.superwechat.ui.NewFriendsMsgActivity;
 import cn.ucai.superwechat.utils.MFGT;
 
 public class NewFriendsMsgAdapter extends ArrayAdapter<InviteMessage> {
+	private static final String TAG = NewFriendsMsgAdapter.class.getSimpleName();
 
 	private Context context;
 	private InviteMessgeDao messgeDao;
@@ -96,7 +98,7 @@ public class NewFriendsMsgAdapter extends ArrayAdapter<InviteMessage> {
 				holder.groupContainer.setVisibility(View.GONE);
 			}
 
-			EaseUserUtils.setAppUserAvatarByPath(context,msg.getAvatar(),holder.avator);
+			EaseUserUtils.setAppUserAvatarByPath(context,msg.getAvatar(),holder.avator,msg.getGroupId());
 			holder.reason.setText(msg.getReason());
 			holder.name.setText(msg.getNickName());
 			// holder.time.setText(DateUtils.getTimestampString(new
